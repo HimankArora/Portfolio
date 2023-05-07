@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (min-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+
+}
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+    header{
+        padding: 0 20px;
+    }
+    .nav-list{
+        display: none;
+    }
+
+    /* hero */
+    #hero-section{
+        margin-top: 50px;
+    }
+    .right-container button{
+        margin-top: 30px;
+    }
+
+
+
+    /* projects */
+        .horizontal .card{
+            width: 280px;
+            padding: 55px 10px;
+        }
+                .project-image-col img{
+                    width:250px
+                }
+                .product-desc-col p{
+                    font-size: 12px;
+                }
+                .product-desc-col button{
+                    min-height: 15px;
+                    min-width: 50px;
+                    margin: 5px 10px;
+                    font-size: 12px;
+                }
+
+        /* about-me */
+        .detail-container{
+            margin-bottom: 30px;
+        }
+
+                .about-me .icons{
+                    min-height: 50px;
+                        width: 50px;
+                        margin: 10px 30px;
+                        border-radius: 100px;
+                        font-size: 30px;
+                }
+}
