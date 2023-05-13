@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+    /* hero */
+        #hero-section {
+            margin-top: 60px;
+            padding-bottom: 130px;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+
+    /* hero */
+    .right-container{
+        padding-top: 50px;
+    }
+
+    /* projects */
+        .horizontal .card {
+            width: 320px;
+            padding: 65px 10px;
+        }
+    
+        .project-image-col img {
+            width: 250px
+        }
+    
+        .product-desc-col p {
+            font-size: 12px;
+        }
+    
+        .product-desc-col button {
+            min-height: 15px;
+            min-width: 50px;
+            margin: 5px 10px;
+            font-size: 12px;
+        }
+
+}
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+
+    /* hero */
+    #hero-section{
+        margin-top: 60px;
+    }
+    .right-container button{
+        margin-top: 30px;
+    }
+
+    /* heading */
+        .heading:hover {
+            font-size: 30px;
+            letter-spacing: 10px;
+            transition: 0.4s;
+            padding-left: 10px;
+        }
+
+    /* projects */
+    .horizontal .card{
+        width: 280px;
+        padding: 55px 10px;
+    }
+    .project-image-col img{
+        width:250px
+    }
+    .product-desc-col p{
+        font-size: 12px;
+    }
+    .product-desc-col button{
+        min-height: 15px;
+        min-width: 50px;
+        margin: 5px 10px;
+        font-size: 12px;
+    }
+
+    /* about-me */
+    .detail-container{
+        margin-bottom: 30px;
+    }
+
+    .about-me .icons{
+        min-height: 50px;
+        width: 50px;
+        margin: 10px 30px;
+        border-radius: 100px;
+        font-size: 30px;
+    }
+}

@@ -337,6 +337,10 @@ background: linear-gradient(62deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
 }
+.icon-container button{
+    background-color: transparent;
+    border: none;
+}
 
 /* section-project */
 
